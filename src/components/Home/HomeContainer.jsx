@@ -7,7 +7,7 @@ const HomeContainer = () => {
  
   return (
     <div>
-      <Home allData={allData} filteredData={filteredData}/>
+      <Home filteredData={filteredData}/>
     </div>
   )
 }

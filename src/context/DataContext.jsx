@@ -13,11 +13,14 @@ const DataContextProvider = ({children}) => {
     }
     
     const filteredData = allData?.filter((libro)=> {
-        let bookFound = libro.nombre ? libro.nombre.includes(value) : false
-        let authorFound = libro.autor ? libro.autor.includes(value) : false
-
+        const query = value.toUpperCase()
+        let bookFound = libro.titulo ? libro.titulo.includes(value) : false
+        let authorFound = libro.autor ? libro.autor.includes(query) : false 
+        
         return bookFound || authorFound
     })
+    
+    
 
     let data = {
         searchData,

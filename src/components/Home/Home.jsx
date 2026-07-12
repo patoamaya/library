@@ -1,17 +1,27 @@
 import React from 'react'
 import './Home.css'
+import Card from '../Card/Card'
 
 
-const Home = ({allData, filteredData}) => {
+const Home = ({filteredData}) => {
 return(
 
   filteredData.length != 0 ? 
   <div className='homeContainer'>
-      <h1>todo</h1>
+    <div className="title">
+      <h1>Resultado de la busqueda</h1>
+    </div>
+    <div className="list">
+      {
+        filteredData.map((data)=>
+          <Card data={data} key={data.id}/>
+      )
+    }
+    </div>
     </div>
   : 
   <div className="homeContainer">
-    <h2>Nada aun</h2>
+    <h1> Nada por aquí, nada por allí </h1>
   </div>
   
     )

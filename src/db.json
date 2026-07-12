@@ -1,19 +1,25 @@
 [
     {
-        "nombre": "ensayo sobre la ceguera",
-        "autor": "jose saramago",
-        "leido": "TRUE",
+        "titulo": "ensayo sobre la ceguera",
+        "autor": "JOSE SARAMAGO",
+        "leido": true,
         "id": "867"
     },
     {
-        "nombre": "las venas abiertas de america latina",
-        "autor": "eduardo galeano",
-        "leido": "TRUE",
+        "titulo": "travestis",
+        "autor": "JOSE SARAMAGO",
+        "leido": false,
+        "id": "8673"
+    },
+    {
+        "titulo": "las venas abiertas de america latina",
+        "autor": "EDUDARDO GALEANO",
+        "leido": true,
         "id": 343
     },
      {
-        "nombre":"trolazos",
-        "autor": "homosexuales",
+        "titulo":"trolazos",
+        "autor": "HOMOSEXUALES",
         "leido": true,
         "id":923
     }

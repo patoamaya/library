@@ -1,0 +1,31 @@
+.cardContainer{
+    width: 15rem;
+    height: 10rem;
+    margin: 2rem 2rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 3px 3px black;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem 1rem;
+}
+
+.book-img-leido{
+    background-color: rgba(0, 255, 0, 0.411);
+    display: flex;
+    border-radius: 1rem 0 0 1rem;
+}
+.book-img-no-leido{
+    background-color: rgba(255, 0, 0, 0.637);
+    display: flex;
+    border-radius: 1rem 0 0 1rem;
+}
+img{
+    width: 70px;
+    padding: .5rem;
+}
