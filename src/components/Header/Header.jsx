@@ -1,14 +1,17 @@
-import React from 'react'
 import './Header.css'
 
-const Header = () => {
+const Header = ({searchData}) => {
   return (
     <div className='headerContainer'>
       <h1>Biblioteca</h1>
       <div className="nav">
         <ul>
-          <li>Todos</li>
-          <li><input type="text" id='busqueda' placeholder='Buscar libro o autor' /></li>
+          <li>
+            <form action="" onSubmit={searchData}>
+              <input type="text" id='busqueda' placeholder='Buscar libro o autor' />
+              <button type='submit'>Buscar</button>
+            </form>
+          </li>
         </ul>
       </div>
     </div>

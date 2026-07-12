@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "ensayo sobre la ceguera",
+        "autor": "jose saramago",
+        "leido": "TRUE",
+        "id": "867"
+    },
+    {
+        "nombre": "las venas abiertas de america latina",
+        "autor": "eduardo galeano",
+        "leido": "TRUE",
+        "id": 343
+    },
+     {
+        "nombre":"trolazos",
+        "autor": "homosexuales",
+        "leido": true,
+        "id":923
+    }
+]

@@ -1,9 +1,14 @@
-import React from 'react'
+import { useContext } from 'react'
+import { DataContext } from '../../context/DataContext'
 import Home from './Home'
 
 const HomeContainer = () => {
+  const {allData, filteredData} = useContext(DataContext)
+ 
   return (
-    <div><Home/></div>
+    <div>
+      <Home allData={allData} filteredData={filteredData}/>
+    </div>
   )
 }
 

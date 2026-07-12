@@ -1,5 +1,5 @@
 .footerContainer{
     display: flex;
-    background-color: blue;
+    background-color: rgb(0, 0, 102);
     height: 2rem;
 }
