@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Card from '../Card/Card'
-
+// import back from '../../assets/back.jpg'
 
 const Home = ({filteredData}) => {
 return(
@@ -20,8 +20,10 @@ return(
     </div>
     </div>
   : 
-  <div className="homeContainer">
+  <div className="homeContainerEmpty">
+    <div className="emptyContainer">
     <h1> Nada por aquí, nada por allí </h1>
+    </div>
   </div>
   
     )

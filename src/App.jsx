@@ -1,5 +1,5 @@
 import './App.css'
-import FooterContainer from './components/Footer/FooterContainer'
+// import FooterContainer from './components/Footer/FooterContainer'
 import HeaderContainer from './components/Header/HeaderContainer'
 import HomeContainer from './components/Home/HomeContainer'
 import DataContextProvider from './context/DataContext'
@@ -11,7 +11,7 @@ function App() {
       <DataContextProvider>
       <HeaderContainer/>
       <HomeContainer/>
-      <FooterContainer/>
+      {/* <FooterContainer/> */}
       </DataContextProvider>
     </div>
   )

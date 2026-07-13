@@ -7,11 +7,12 @@ const card = ({data}) => {
   return (
     <div className= "cardContainer">
         <div className={leido ? "book-img-leido" : "book-img-no-leido"}>
-        <img src= {book} alt="" />
+        <img src= {book} alt=""/>
         </div>
         <ul>
-            <li><h3>Autor</h3> {autor}</li>
-            <li><h3>Título</h3> {titulo}</li>
+            <li><h3>{autor}</h3></li>
+            <li><p>{titulo}</p></li>
+            <li>{leido ? <h5>Leído</h5> : <h5>No leído</h5> }</li>
         </ul>
     </div>
   )

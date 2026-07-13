@@ -3,13 +3,13 @@ import './Header.css'
 const Header = ({searchData}) => {
   return (
     <div className='headerContainer'>
-      <h1>Biblioteca</h1>
+      {/* <h1>Biblioteca</h1> */}
       <div className="nav">
         <ul>
           <li>
             <form action="" onSubmit={searchData}>
               <input type="text" id='busqueda' placeholder='Buscar libro o autor' />
-              <button type='submit'>Buscar</button>
+              <button type='submit' className='search-btn'>Buscar</button>
             </form>
           </li>
         </ul>
