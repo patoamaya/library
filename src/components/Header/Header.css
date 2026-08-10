@@ -22,10 +22,10 @@
     height: 4rem;
     padding-left: .4rem;
     border-radius: .2rem;
+    transition: all ease-in-out .2s;
 }
 .nav ul li input:focus{
     transform:translateY(-.1rem); 
-    transition: all ease-in-out .2s;
     box-shadow: .3rem .3rem rgb(0, 0, 0);
 }
 
@@ -36,11 +36,11 @@
     border: none;
     border-radius: .5rem;
     background-color: rgba(255, 255, 255, 0.452);
+    transition: all ease-in-out .3s;
 }
 
 .search-btn:hover{
     transform: translatey(-.05rem);
     cursor: pointer;
     box-shadow: .2rem .2rem rgb(0, 0, 0);
-    transition: all ease-in-out .3s;
 }
