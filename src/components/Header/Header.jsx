@@ -3,7 +3,6 @@ import './Header.css'
 const Header = ({searchData}) => {
   return (
     <div className='headerContainer'>
-      {/* <h1>Biblioteca</h1> */}
       <div className="nav">
         <ul>
           <li>
