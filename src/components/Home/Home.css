@@ -2,7 +2,7 @@
     min-height:82vh;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    background-color: rgba(194, 165, 130, 0.747);
+    background-color: rgba(88, 70, 47, 0.747);
 
 }
 
@@ -11,7 +11,7 @@
     flex-direction: column;
     gap: 2rem;
     border-radius: 1rem;
-    background-color: rgba(0, 0, 0, 0.537);
+    /* background-color: rgba(0, 0, 0, 0.164); */
     min-width: 55vw;
     max-width: 95vw;
     min-height: 70vh;
@@ -23,11 +23,13 @@
 .list{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .title{
     align-self: center;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .homeContainerEmpty{
     display: flex;

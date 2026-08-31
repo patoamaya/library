@@ -7,7 +7,9 @@
     padding: 0 1rem 0 1rem;
     justify-content: center;
     border-bottom: 2px solid rgb(4, 4, 4);
-    background-color: rgba(194, 165, 130, 0.747);
+    /* background-color: rgba(194, 165, 130, 0.747); */
+    background-color: rgba(88, 70, 47, 0.747);
+
 
 }
 
@@ -20,7 +22,7 @@
 
 .nav ul li input{
     border: none;
-    background-color: rgba(0, 0, 0, 0.127);
+    background-color: rgba(255, 255, 255, 0.555);
     width: 17rem;
     height: 4rem;
     padding-left: .4rem;
@@ -37,15 +39,26 @@
     height: 2rem;
     border: none;
     border-radius: .5rem;
-    background-color: rgba(0, 0, 0, 0.127);
+    background-color: rgba(255, 255, 255, 0.555);
     cursor: pointer;
     box-shadow: 0px -1px 21px 10px rgba(24, 19, 1, 0.67);
     -webkit-box-shadow: 0px -1px 21px 10px rgba(169, 165, 160, 0.378);
     -moz-box-shadow: 0px -1px 21px 10px rgba(148, 139, 113, 0.67);
     transition: .3s;
 }
+.add-btn{
+    margin: 1rem;
+    width: 4rem;
+    height: 2rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    background-color:rgba(255, 232, 61, 0.678) ;
+    box-shadow: 0px 0px 10px 3px rgba(224, 209, 97, 0.496);
+    transition: .3s;
+}
 
-.search-btn:hover{
+.search-btn:hover, add-btn:hover{
     box-shadow: 0px -1px 21px 10px rgba(24, 19, 1, 0.67);
     -webkit-box-shadow: 0px -1px 21px 10px rgba(169, 165, 160, 0.614);
     -moz-box-shadow: 0px -1px 21px 10px rgba(148, 139, 113, 0.67);

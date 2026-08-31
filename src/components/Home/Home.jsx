@@ -1,4 +1,3 @@
-import React from 'react'
 import './Home.css'
 import Card from '../Card/Card'
 
@@ -8,15 +7,15 @@ return(
   <div className="homeContainerAll">
 
   <div className='homeContainer'>
-    <div className="title">
-      <h1>Resultado de la busqueda</h1>
-    </div>
     <div className="list">
       {
         filteredData.map((data)=>
           <Card data={data} key={data.id}/>
       )
     }
+    </div>
+    <div className="title">
+      <h1>{`${filteredData.length} resultados`}</h1>
     </div>
   </div>
   </div>
