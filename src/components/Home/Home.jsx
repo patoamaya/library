@@ -1,12 +1,12 @@
 import React from 'react'
 import './Home.css'
 import Card from '../Card/Card'
-// import back from '../../assets/back.jpg'
 
 const Home = ({filteredData}) => {
 return(
-
   filteredData.length != 0 ? 
+  <div className="homeContainerAll">
+
   <div className='homeContainer'>
     <div className="title">
       <h1>Resultado de la busqueda</h1>
@@ -18,7 +18,8 @@ return(
       )
     }
     </div>
-    </div>
+  </div>
+  </div>
   : 
   <div className="homeContainerEmpty">
     <div className="emptyContainer">

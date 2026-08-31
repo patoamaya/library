@@ -25,7 +25,7 @@ const DataContextProvider = ({children}) => {
     let data = {
         searchData,
         allData,
-        filteredData
+        filteredData,
     }
     return <DataContext.Provider value = {data}>{children}</DataContext.Provider>; 
 }
