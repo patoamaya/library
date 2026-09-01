@@ -1,12 +1,12 @@
 .card-container-all{
-    width: 17rem;
+    width: 20rem;
     height: 25rem;
     margin: 1rem 2rem;
     /* border: 1px solid black; */
     border-radius: .5rem;
     display: flex;
     /* flex-direction: column; */
-    background-color: rgba(27, 119, 4, 0.568);
+    background-color: rgba(115, 81, 100, 0.677);
     /* background-color: rgb(55, 8, 8); */
     /* box-shadow:  0px -1px 21px 10px rgba(196, 118, 15, 0.434); */
     box-shadow:  0px -1px 5px 5px rgba(0, 0, 0, 0.434);
@@ -49,18 +49,18 @@
 }
 
 .seeMore{
-    width: 50%;
+    width: 95%;
     /* height: 1.5rem; */
     box-shadow: 0px 0px 10px 3px rgba(224, 209, 97, 0.496);
     padding: .5rem;
-    background-color:rgba(255, 232, 61, 0.678) ;
+    background-color:rgba(255, 232, 61, 0.499) ;
     border-radius: .2rem;
     border: none;
     cursor: pointer;
     transition: .3s;
     /* color: rgba(255, 248, 248, 0.848); */
 }
-.card-container-all button:hover{
+.seeMore:hover{
     box-shadow:0px 0px 10px 3px rgba(224, 209, 97, 0.732)
 }
 
@@ -74,19 +74,21 @@
 .ud-opts{
     display: flex;
     justify-content: center;
-    gap: 45%;
+    gap: 51%;
     margin-bottom: 1rem;
 }
 
 .ud-opts li button{
-        /* width: 50%; */
-    /* height: 1.5rem; */
-    box-shadow: 0px 0px 10px 3px rgba(224, 209, 97, 0.496);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.496);
     padding: .5rem;
     border-radius: .2rem;
     border: none;
     cursor: pointer;
     transition: .3s;
+}
+.ud-opts li button:hover{
+    box-shadow: 0px 0px 9px 8px rgba(0, 0, 0, 0.496);
+    
 }
 
 .edit-btn{
@@ -94,7 +96,7 @@
 }
 
 .delete-btn{
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.64);
 }
 
 

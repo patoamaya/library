@@ -1,6 +1,6 @@
 import './Home.css'
 import Card from '../Card/Card'
-
+import cat from '../../assets/cat.png'
 const Home = ({filteredData}) => {
 return(
   filteredData.length != 0 ? 
@@ -22,7 +22,8 @@ return(
   : 
   <div className="homeContainerEmpty">
     <div className="emptyContainer">
-    <h1> Nada por aquí, nada por allí </h1>
+      <h1> Nada por aquí, nada por allí </h1>
+      <img src={cat} alt="" />
     </div>
   </div>
   

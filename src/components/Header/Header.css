@@ -38,29 +38,27 @@
     width: 4rem;
     height: 2rem;
     border: none;
-    border-radius: .5rem;
+    border-radius: .2rem;
     background-color: rgba(255, 255, 255, 0.555);
     cursor: pointer;
-    box-shadow: 0px -1px 21px 10px rgba(24, 19, 1, 0.67);
-    -webkit-box-shadow: 0px -1px 21px 10px rgba(169, 165, 160, 0.378);
-    -moz-box-shadow: 0px -1px 21px 10px rgba(148, 139, 113, 0.67);
-    transition: .3s;
+    box-shadow: 0px 0px 10px 3px rgba(169, 165, 160, 0.378);
+  
+    transition: .5s;
 }
 .add-btn{
     margin: 1rem;
     width: 4rem;
     height: 2rem;
     border: none;
-    border-radius: .5rem;
+    border-radius: .2rem;
     cursor: pointer;
-    background-color:rgba(255, 232, 61, 0.678) ;
+    background-color:rgba(255, 232, 61, 0.499) ;
     box-shadow: 0px 0px 10px 3px rgba(224, 209, 97, 0.496);
-    transition: .3s;
+    transition: .5s;
 }
 
-.search-btn:hover, add-btn:hover{
-    box-shadow: 0px -1px 21px 10px rgba(24, 19, 1, 0.67);
-    -webkit-box-shadow: 0px -1px 21px 10px rgba(169, 165, 160, 0.614);
-    -moz-box-shadow: 0px -1px 21px 10px rgba(148, 139, 113, 0.67);
+.search-btn:hover, .add-btn:hover{
+    box-shadow: 0px -1px 10px 3px rgba(24, 19, 1, 0.67);
+
 }
 

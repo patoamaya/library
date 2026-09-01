@@ -19,6 +19,10 @@ const card = ({data}) => {
             <li><p>{sinopsis}</p></li>
             <button onClick={()=> setSeeMore(!seeMore)} className='seeMore'>Volver</button>
           </ul>
+          <ul className='ud-opts'>
+            <li><button className='edit-btn'>Editar</button></li>
+            <li><button className='delete-btn'>Eliminar</button></li>
+          </ul>
           </div>
           :
           < div className="card-container">
