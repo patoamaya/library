@@ -33,7 +33,7 @@ const card = ({data}) => {
             <button onClick={()=> setSeeMore(!seeMore)} className='seeMore'>Sinopsis</button>
         </ul>
           <ul className='ud-opts'>
-            <li><button className='edit-btn'>Editar</button></li>
+            <li><a href={`/${id}`}><button className='edit-btn'>Editar</button></a></li>
             <li><button className='delete-btn'>Eliminar</button></li>
           </ul>
           </ div>

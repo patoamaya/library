@@ -6,9 +6,11 @@ const Header = ({searchData}) => {
       <div className="nav">
         <ul>
           <li>
+            <a href="/new">
             <button className='add-btn'>
               Agregar
             </button>
+            </a>
           </li>
           <li>
             <form action="" onSubmit={searchData}>
