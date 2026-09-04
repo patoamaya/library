@@ -14,7 +14,7 @@ function App() {
             <Routes>
               <Route path='/' element={<HomeContainer />} />
               <Route path='/new' element={<CreateEditContainer />} />
-              <Route path='/:id?' element={<CreateEditContainer />} />
+              <Route path='/edit/:id?' element={<CreateEditContainer />} />
             </Routes>
         </DataContextProvider> 
       </BrowserRouter>

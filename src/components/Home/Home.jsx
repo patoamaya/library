@@ -1,5 +1,5 @@
 import './Home.css'
-import Card from '../Card/Card'
+import Card from '../card/card.jsx'
 import cat from '../../assets/cat.png'
 const Home = ({filteredData}) => {
 return(
